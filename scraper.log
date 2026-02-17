@@ -1,0 +1,138 @@
+2025-03-13T03:57:54.326Z INFO: CSV file initialized at C:\Github Scrapper ideas\Electron JS browser\ElectronJS_Broswser_V7_Converting_scraper_in_JS_electron_UI_companyInfo_instantCSV\lksn_data\1741838274312_lk_salesnav_export.csv
+2025-03-13T03:57:54.338Z INFO: Running in headless mode.
+2025-03-13T03:58:19.111Z INFO: Starting the scraping process...
+2025-03-13T03:58:19.112Z INFO: Waiting for 5s before processing page 1...
+2025-03-13T03:58:24.114Z INFO: Processing page 1...
+2025-03-13T03:58:25.902Z INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=%28recentSearchParam%3A%28id%3A3570030753%2CdoLogHistory%3Atrue%29%2Cfilters%3AList%28%28type%3ACOMPANY_HEADCOUNT%2Cvalues%3AList%28%28id%3AF%2Ctext%3A501-1000%2CselectionType%3AINCLUDED%29%29%29%2C%28type%3AFUNCTION%2Cvalues%3AList%28%28id%3A18%2Ctext%3AOperations%2CselectionType%3AINCLUDED%29%2C%28id%3A10%2Ctext%3AFinance%2CselectionType%3AINCLUDED%29%29%29%2C%28type%3AREGION%2Cvalues%3AList%28%28id%3A91000007%2Ctext%3AEMEA%2CselectionType%3AINCLUDED%29%29%29%29%29&sessionId=CFdkRVjHRIyI4fKtNILd9g%3D%3D&page=1
+2025-03-13T03:58:25.904Z INFO: Waiting for the search results container to become visible...
+2025-03-13T03:58:30.392Z INFO: Search results container is visible.
+2025-03-13T03:58:30.579Z INFO: Scrolled to 455.5 of 4555
+2025-03-13T03:58:31.344Z INFO: Scrolled to 911 of 4555
+2025-03-13T03:58:31.946Z INFO: Scrolled to 1366.5 of 4555
+2025-03-13T03:58:32.656Z INFO: Scrolled to 1822 of 4555
+2025-03-13T03:58:33.174Z INFO: Scrolled to 2277.5 of 4555
+2025-03-13T03:58:33.696Z INFO: Scrolled to 2733 of 4555
+2025-03-13T03:58:34.336Z INFO: Scrolled to 3188.5 of 4555
+2025-03-13T03:58:34.879Z INFO: Scrolled to 3644 of 4555
+2025-03-13T03:58:35.406Z INFO: Scrolled to 4099.5 of 4555
+2025-03-13T03:58:35.929Z INFO: Scrolled to 4555 of 4555
+2025-03-13T03:58:42.250Z INFO: Scrolling attempt 1. Found 25 profiles.
+2025-03-13T03:58:47.766Z INFO: Scrolling attempt 2. Found 25 profiles.
+2025-03-13T03:58:47.768Z INFO: No new profiles loaded; stopping scroll.
+2025-03-13T03:58:47.939Z INFO: Getting all result elements...
+2025-03-13T03:58:48.094Z INFO: Found 25 elements.
+2025-03-13T03:58:48.185Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/11206502?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T03:59:00.282Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/98162931?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T03:59:10.577Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/2998033?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T03:59:22.317Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/513014?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T03:59:35.513Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/1238517?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T03:59:48.164Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/9220961?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:00:00.846Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/80162193?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:00:11.637Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/659156?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:00:22.661Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/93338773?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:00:33.995Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/2510355?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:00:47.328Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/2870726?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:00:57.808Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/598168?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:01:08.343Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/11074500?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:01:18.512Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/780796?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:01:31.450Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/1723353?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:01:43.610Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/8686314?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:01:57.073Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/22912?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:02:09.745Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/10847180?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:02:22.742Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/1884071?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:02:34.820Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/569409?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:02:45.374Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/67483773?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:02:54.733Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/1499521?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:03:06.432Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38158484?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:03:16.625Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/19137333?_ntb=CFdkRVjHRIyI4fKtNILd9g%3D%3D
+2025-03-13T04:03:26.048Z INFO: Scraping completed. Total profiles scraped: 25
+2025-03-13T05:04:38.585Z INFO: CSV file initialized at C:\Github Scrapper ideas\Electron JS browser\ElectronJS_Broswser_V7_Converting_scraper_in_JS_electron_UI_companyInfo_instantCSV\lksn_data\1741842278580_lk_salesnav_export.csv
+2025-03-13T05:04:38.593Z INFO: Running in headless mode.
+2025-03-13T05:05:07.796Z INFO: Starting the scraping process...
+2025-03-13T05:05:07.799Z INFO: Waiting for 5s before processing page 1...
+2025-03-13T05:05:12.800Z INFO: Processing page 1...
+2025-03-13T05:05:14.765Z INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=%28recentSearchParam%3A%28id%3A3570031665%2CdoLogHistory%3Atrue%29%2Cfilters%3AList%28%28type%3ACOMPANY_HEADCOUNT%2Cvalues%3AList%28%28id%3AG%2Ctext%3A1001-5000%2CselectionType%3AINCLUDED%29%29%29%2C%28type%3AFUNCTION%2Cvalues%3AList%28%28id%3A18%2Ctext%3AOperations%2CselectionType%3AINCLUDED%29%29%29%2C%28type%3ASENIORITY_LEVEL%2Cvalues%3AList%28%28id%3A210%2Ctext%3AExperienced%2520Manager%2CselectionType%3AINCLUDED%29%29%29%2C%28type%3AREGION%2Cvalues%3AList%28%28id%3A102221843%2Ctext%3ANorth%2520America%2CselectionType%3AINCLUDED%29%29%29%2C%28type%3AINDUSTRY%2Cvalues%3AList%28%28id%3A31%2Ctext%3AHospitality%2CselectionType%3AINCLUDED%29%29%29%2C%28type%3ACURRENT_COMPANY%2Cvalues%3AList%28%28id%3Aurn%253Ali%253Aorganization%253A38806%2Ctext%3ADrury%2520Hotels%2CselectionType%3AINCLUDED%2Cparent%3A%28id%3A0%29%29%29%29%29%29&sessionId=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D&page=1
+2025-03-13T05:05:14.770Z INFO: Waiting for the search results container to become visible...
+2025-03-13T05:05:19.847Z INFO: Search results container is visible.
+2025-03-13T05:05:20.104Z INFO: Scrolled to 458.1 of 4581
+2025-03-13T05:05:20.637Z INFO: Scrolled to 916.2 of 4581
+2025-03-13T05:05:21.763Z INFO: Scrolled to 1374.3 of 4581
+2025-03-13T05:05:22.302Z INFO: Scrolled to 1832.4 of 4581
+2025-03-13T05:05:22.829Z INFO: Scrolled to 2290.5 of 4581
+2025-03-13T05:05:23.349Z INFO: Scrolled to 2748.6 of 4581
+2025-03-13T05:05:24.017Z INFO: Scrolled to 3206.7 of 4581
+2025-03-13T05:05:24.552Z INFO: Scrolled to 3664.8 of 4581
+2025-03-13T05:05:25.081Z INFO: Scrolled to 4122.900000000001 of 4581
+2025-03-13T05:05:25.612Z INFO: Scrolled to 4581 of 4581
+2025-03-13T05:05:30.717Z INFO: Scrolling attempt 1. Found 25 profiles.
+2025-03-13T05:05:35.115Z INFO: Scrolling attempt 2. Found 25 profiles.
+2025-03-13T05:05:35.116Z INFO: No new profiles loaded; stopping scroll.
+2025-03-13T05:05:35.373Z INFO: Getting all result elements...
+2025-03-13T05:05:35.540Z INFO: Found 25 elements.
+2025-03-13T05:05:35.634Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:05:50.958Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:06:01.799Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:06:12.958Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:06:24.363Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:06:35.778Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:06:46.937Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:06:57.123Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:07:07.849Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:07:18.137Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:07:28.606Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:07:38.631Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:07:50.201Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:08:00.290Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:08:10.499Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:08:21.365Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:08:33.863Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:08:46.587Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:08:58.702Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:09:10.648Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:09:22.512Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:09:33.975Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/38806?_ntb=IZLSxJhCRvCYwsvKZ2dP5Q%3D%3D
+2025-03-13T05:09:45.334Z INFO: Scraping completed. Total profiles scraped: 25
+2025-03-13T05:24:36.851Z INFO: CSV file initialized at C:\Github Scrapper ideas\Electron JS browser\ElectronJS_Broswser_V7_Converting_scraper_in_JS_electron_UI_companyInfo_instantCSV\lksn_data\1741843476847_lk_salesnav_export.csv
+2025-03-13T05:24:36.865Z INFO: Running in headless mode.
+2025-03-13T05:25:05.280Z INFO: Starting the scraping process...
+2025-03-13T05:25:05.282Z INFO: Waiting for 5s before processing page 1...
+2025-03-13T05:25:10.287Z INFO: Processing page 1...
+2025-03-13T05:25:10.975Z INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=%28recentSearchParam%3A%28id%3A3570031921%2CdoLogHistory%3Atrue%29%2Cfilters%3AList%28%28type%3ACOMPANY_HEADCOUNT%2Cvalues%3AList%28%28id%3AB%2Ctext%3A1-10%2CselectionType%3AINCLUDED%29%29%29%2C%28type%3ASENIORITY_LEVEL%2Cvalues%3AList%28%28id%3A320%2Ctext%3AOwner%2520%252F%2520Partner%2CselectionType%3AINCLUDED%29%29%29%29%29&sessionId=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D&page=1
+2025-03-13T05:25:10.979Z INFO: Waiting for the search results container to become visible...
+2025-03-13T05:25:17.210Z INFO: Search results container is visible.
+2025-03-13T05:25:17.285Z INFO: Scrolled to 470.90000000000003 of 4709
+2025-03-13T05:25:19.887Z INFO: Scrolled to 941.8000000000001 of 4709
+2025-03-13T05:25:20.993Z INFO: Scrolled to 1412.7 of 4709
+2025-03-13T05:25:21.784Z INFO: Scrolled to 1883.6000000000001 of 4709
+2025-03-13T05:25:22.313Z INFO: Scrolled to 2354.5 of 4709
+2025-03-13T05:25:23.022Z INFO: Scrolled to 2825.4 of 4709
+2025-03-13T05:25:24.571Z INFO: Scrolled to 3296.2999999999997 of 4709
+2025-03-13T05:25:25.099Z INFO: Scrolled to 3767.2000000000003 of 4709
+2025-03-13T05:25:25.635Z INFO: Scrolled to 4238.1 of 4709
+2025-03-13T05:25:26.164Z INFO: Scrolled to 4709 of 4709
+2025-03-13T05:25:31.358Z INFO: Scrolling attempt 1. Found 25 profiles.
+2025-03-13T05:25:35.739Z INFO: Scrolling attempt 2. Found 25 profiles.
+2025-03-13T05:25:35.740Z INFO: No new profiles loaded; stopping scroll.
+2025-03-13T05:25:35.928Z INFO: Getting all result elements...
+2025-03-13T05:25:36.080Z INFO: Found 25 elements.
+2025-03-13T05:25:36.150Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/11825843?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:25:49.223Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/11484739?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:26:00.120Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/3731533?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:26:11.739Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/106575786?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:26:22.165Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/100457909?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:26:33.941Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/6197342?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:26:43.674Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/80419054?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:26:54.118Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/74906925?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:27:03.629Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/100950708?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:27:14.125Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/10214003?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:27:31.684Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/65336281?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:27:42.131Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/3760111?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:27:52.538Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/947407?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:28:03.781Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/3597199?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:28:14.590Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/15823401?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:28:26.152Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/90164770?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:28:36.642Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/318161?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:28:47.356Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/80046596?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:28:57.822Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/40656087?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:29:08.610Z INFO: Extracting company details for: https://www.linkedin.com/sales/company/35519868?_ntb=N1cz6kRtSzq%2Bupyv36yvQg%3D%3D
+2025-03-13T05:29:19.494Z INFO: Scraping completed. Total profiles scraped: 25
