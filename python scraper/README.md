@@ -10,13 +10,6 @@ Here are the different tools that are currently available:
 | LinkedIn Recruiter Search Scraper | A tool that scraps the profiles available in a given LinkedIn Recruiter search | *lkr_search_scraper.py* | Recruiter, Recruiter Lite |
 | LinkedIn Visitor | A tool that takes all the profiles available in a given LinkedIn Recruiter search and visits their page, providing a visit notification if the privacy settings are correctly set up | *lk_visitor.py* | Any (even free, but careful of the limitations) |
 
-## Installation
-```bash
-git clone https://github.com/ArthurVerrez/linkedin-scraping-tools.git
-cd linkedin-scraping-tools
-pip install -r requirements.txt
-```
-
 Create a new file called *lk_credentials.json* at the root of the project and add the following content:
 ```json
 {
