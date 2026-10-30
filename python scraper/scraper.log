@@ -1,0 +1,180 @@
+2025-03-08 12:38:59,363 INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=(recentSearchParam%3A(id%3A3554033849%2CdoLogHistory%3Atrue)%2Cfilters%3AList((type%3AFUNCTION%2Cvalues%3AList((id%3A13%2Ctext%3AInformation%2520Technology%2CselectionType%3AINCLUDED)%2C(id%3A12%2Ctext%3AHuman%2520Resources%2CselectionType%3AINCLUDED)))%2C(type%3ASENIORITY_LEVEL%2Cvalues%3AList((id%3A130%2Ctext%3AStrategic%2CselectionType%3AINCLUDED)))%2C(type%3AREGION%2Cvalues%3AList((id%3A102221843%2Ctext%3ANorth%2520America%2CselectionType%3AINCLUDED)))))&sessionId=MUtfiDPRQ1SPlrRZ7KGrsg%3D%3D&page=1
+2025-03-08 12:38:59,363 INFO: Waiting for the search results container to become visible...
+2025-03-08 12:39:03,593 ERROR: Error waiting for search results container.
+Traceback (most recent call last):
+  File "C:\Github Scrapper ideas\scrapper using python from ArthurVerrez's git V6 trying GUI\linkedin-scraping-tools\linkedin_scraper_gui.py", line 200, in get_all_info_from_search_url
+    container = wait.until(EC.visibility_of_element_located((By.ID, "search-results-container")))
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF79D48C6A5+28789]
+	(No symbol) [0x00007FF79D3F5B20]
+	(No symbol) [0x00007FF79D288F9A]
+	(No symbol) [0x00007FF79D2DF346]
+	(No symbol) [0x00007FF79D2DF57C]
+	(No symbol) [0x00007FF79D332B17]
+	(No symbol) [0x00007FF79D30736F]
+	(No symbol) [0x00007FF79D32F7E3]
+	(No symbol) [0x00007FF79D307103]
+	(No symbol) [0x00007FF79D2CFFC0]
+	(No symbol) [0x00007FF79D2D1273]
+	GetHandleVerifier [0x00007FF79D7D1AED+3458237]
+	GetHandleVerifier [0x00007FF79D7E829C+3550316]
+	GetHandleVerifier [0x00007FF79D7DDB9D+3507565]
+	GetHandleVerifier [0x00007FF79D552C6A+841274]
+	(No symbol) [0x00007FF79D4009EF]
+	(No symbol) [0x00007FF79D3FCB34]
+	(No symbol) [0x00007FF79D3FCCD6]
+	(No symbol) [0x00007FF79D3EC119]
+	BaseThreadInitThunk [0x00007FFD51C37374+20]
+	RtlUserThreadStart [0x00007FFD5377CC91+33]
+
+2025-03-08 12:39:11,246 INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=(recentSearchParam%3A(id%3A3554033849%2CdoLogHistory%3Atrue)%2Cfilters%3AList((type%3AFUNCTION%2Cvalues%3AList((id%3A13%2Ctext%3AInformation%2520Technology%2CselectionType%3AINCLUDED)%2C(id%3A12%2Ctext%3AHuman%2520Resources%2CselectionType%3AINCLUDED)))%2C(type%3ASENIORITY_LEVEL%2Cvalues%3AList((id%3A130%2Ctext%3AStrategic%2CselectionType%3AINCLUDED)))%2C(type%3AREGION%2Cvalues%3AList((id%3A102221843%2Ctext%3ANorth%2520America%2CselectionType%3AINCLUDED)))))&sessionId=MUtfiDPRQ1SPlrRZ7KGrsg%3D%3D&page=2
+2025-03-08 12:39:11,247 INFO: Waiting for the search results container to become visible...
+2025-03-08 12:39:15,853 INFO: Search results container is visible.
+2025-03-08 12:39:15,854 INFO: Gradually scrolling down the container to load all profiles...
+2025-03-08 12:39:15,898 INFO: Scrolled to 468.3 of 4683
+2025-03-08 12:39:16,745 INFO: Scrolled to 936.6 of 4683
+2025-03-08 12:39:17,660 INFO: Scrolled to 1404.8999999999999 of 4683
+2025-03-08 12:39:18,376 INFO: Scrolled to 1873.2 of 4683
+2025-03-08 12:39:19,020 INFO: Scrolled to 2341.5 of 4683
+2025-03-08 12:39:19,724 INFO: Scrolled to 2809.7999999999997 of 4683
+2025-03-08 12:39:20,236 INFO: Scrolled to 3278.1 of 4683
+2025-03-08 12:39:20,852 INFO: Scrolled to 3746.4 of 4683
+2025-03-08 12:39:21,409 INFO: Scrolled to 4214.7 of 4683
+2025-03-08 12:39:21,929 INFO: Scrolled to 4683.0 of 4683
+2025-03-08 12:39:23,682 INFO: Scrolling attempt 1. Found 25 profiles.
+2025-03-08 12:39:27,908 WARNING: Timeout waiting for new profiles to load.
+Traceback (most recent call last):
+  File "C:\Github Scrapper ideas\scrapper using python from ArthurVerrez's git V6 trying GUI\linkedin-scraping-tools\linkedin_scraper_gui.py", line 242, in get_all_info_from_search_url
+    WebDriverWait(driver, wait_after_scroll_down).until(profiles_loaded)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-03-08 12:39:28,441 INFO: Scrolling attempt 2. Found 25 profiles.
+2025-03-08 12:39:28,441 INFO: No new profiles loaded; stopping scroll.
+2025-03-08 12:39:28,550 INFO: Getting all result elements...
+2025-03-08 12:39:28,981 INFO: Found 25 elements.
+2025-03-08 12:39:28,981 INFO: Getting the info for all elements...
+2025-03-08 12:39:36,589 INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=(recentSearchParam%3A(id%3A3554033849%2CdoLogHistory%3Atrue)%2Cfilters%3AList((type%3AFUNCTION%2Cvalues%3AList((id%3A13%2Ctext%3AInformation%2520Technology%2CselectionType%3AINCLUDED)%2C(id%3A12%2Ctext%3AHuman%2520Resources%2CselectionType%3AINCLUDED)))%2C(type%3ASENIORITY_LEVEL%2Cvalues%3AList((id%3A130%2Ctext%3AStrategic%2CselectionType%3AINCLUDED)))%2C(type%3AREGION%2Cvalues%3AList((id%3A102221843%2Ctext%3ANorth%2520America%2CselectionType%3AINCLUDED)))))&sessionId=MUtfiDPRQ1SPlrRZ7KGrsg%3D%3D&page=3
+2025-03-08 12:39:36,590 INFO: Waiting for the search results container to become visible...
+2025-03-08 12:39:40,817 INFO: Search results container is visible.
+2025-03-08 12:39:40,818 INFO: Gradually scrolling down the container to load all profiles...
+2025-03-08 12:39:40,900 INFO: Scrolled to 462.70000000000005 of 4627
+2025-03-08 12:39:41,450 INFO: Scrolled to 925.4000000000001 of 4627
+2025-03-08 12:39:41,966 INFO: Scrolled to 1388.1 of 4627
+2025-03-08 12:39:42,942 INFO: Scrolled to 1850.8000000000002 of 4627
+2025-03-08 12:39:43,649 INFO: Scrolled to 2313.5 of 4627
+2025-03-08 12:39:44,288 INFO: Scrolled to 2776.2 of 4627
+2025-03-08 12:39:44,821 INFO: Scrolled to 3238.8999999999996 of 4627
+2025-03-08 12:39:45,665 INFO: Scrolled to 3701.6000000000004 of 4627
+2025-03-08 12:39:46,188 INFO: Scrolled to 4164.3 of 4627
+2025-03-08 12:39:46,710 INFO: Scrolled to 4627.0 of 4627
+2025-03-08 12:39:48,458 INFO: Scrolling attempt 1. Found 25 profiles.
+2025-03-08 12:39:52,486 WARNING: Timeout waiting for new profiles to load.
+Traceback (most recent call last):
+  File "C:\Github Scrapper ideas\scrapper using python from ArthurVerrez's git V6 trying GUI\linkedin-scraping-tools\linkedin_scraper_gui.py", line 242, in get_all_info_from_search_url
+    WebDriverWait(driver, wait_after_scroll_down).until(profiles_loaded)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-03-08 12:39:53,043 INFO: Scrolling attempt 2. Found 25 profiles.
+2025-03-08 12:39:53,044 INFO: No new profiles loaded; stopping scroll.
+2025-03-08 12:39:53,181 INFO: Getting all result elements...
+2025-03-08 12:39:53,599 INFO: Found 25 elements.
+2025-03-08 12:39:53,599 INFO: Getting the info for all elements...
+2025-03-08 12:41:44,872 INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=(recentSearchParam%3A(id%3A3554033849%2CdoLogHistory%3Atrue)%2Cfilters%3AList((type%3AFUNCTION%2Cvalues%3AList((id%3A13%2Ctext%3AInformation%2520Technology%2CselectionType%3AINCLUDED)%2C(id%3A12%2Ctext%3AHuman%2520Resources%2CselectionType%3AINCLUDED)))%2C(type%3ASENIORITY_LEVEL%2Cvalues%3AList((id%3A130%2Ctext%3AStrategic%2CselectionType%3AINCLUDED)))%2C(type%3AREGION%2Cvalues%3AList((id%3A102221843%2Ctext%3ANorth%2520America%2CselectionType%3AINCLUDED)))))&sessionId=MUtfiDPRQ1SPlrRZ7KGrsg%3D%3D&page=1
+2025-03-08 12:41:44,872 INFO: Waiting for the search results container to become visible...
+2025-03-08 12:41:48,916 ERROR: Error waiting for search results container.
+Traceback (most recent call last):
+  File "C:\Github Scrapper ideas\scrapper using python from ArthurVerrez's git V6 trying GUI\linkedin-scraping-tools\linkedin_scraper_gui.py", line 200, in get_all_info_from_search_url
+    container = wait.until(EC.visibility_of_element_located((By.ID, "search-results-container")))
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF79D48C6A5+28789]
+	(No symbol) [0x00007FF79D3F5B20]
+	(No symbol) [0x00007FF79D288F9A]
+	(No symbol) [0x00007FF79D2DF346]
+	(No symbol) [0x00007FF79D2DF57C]
+	(No symbol) [0x00007FF79D332B17]
+	(No symbol) [0x00007FF79D30736F]
+	(No symbol) [0x00007FF79D32F7E3]
+	(No symbol) [0x00007FF79D307103]
+	(No symbol) [0x00007FF79D2CFFC0]
+	(No symbol) [0x00007FF79D2D1273]
+	GetHandleVerifier [0x00007FF79D7D1AED+3458237]
+	GetHandleVerifier [0x00007FF79D7E829C+3550316]
+	GetHandleVerifier [0x00007FF79D7DDB9D+3507565]
+	GetHandleVerifier [0x00007FF79D552C6A+841274]
+	(No symbol) [0x00007FF79D4009EF]
+	(No symbol) [0x00007FF79D3FCB34]
+	(No symbol) [0x00007FF79D3FCCD6]
+	(No symbol) [0x00007FF79D3EC119]
+	BaseThreadInitThunk [0x00007FFD51C37374+20]
+	RtlUserThreadStart [0x00007FFD5377CC91+33]
+
+2025-03-08 12:41:55,062 INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=(recentSearchParam%3A(id%3A3554033849%2CdoLogHistory%3Atrue)%2Cfilters%3AList((type%3AFUNCTION%2Cvalues%3AList((id%3A13%2Ctext%3AInformation%2520Technology%2CselectionType%3AINCLUDED)%2C(id%3A12%2Ctext%3AHuman%2520Resources%2CselectionType%3AINCLUDED)))%2C(type%3ASENIORITY_LEVEL%2Cvalues%3AList((id%3A130%2Ctext%3AStrategic%2CselectionType%3AINCLUDED)))%2C(type%3AREGION%2Cvalues%3AList((id%3A102221843%2Ctext%3ANorth%2520America%2CselectionType%3AINCLUDED)))))&sessionId=MUtfiDPRQ1SPlrRZ7KGrsg%3D%3D&page=2
+2025-03-08 12:41:55,062 INFO: Waiting for the search results container to become visible...
+2025-03-08 12:42:00,046 INFO: Search results container is visible.
+2025-03-08 12:42:00,046 INFO: Gradually scrolling down the container to load all profiles...
+2025-03-08 12:42:00,275 INFO: Scrolled to 468.3 of 4683
+2025-03-08 12:42:00,924 INFO: Scrolled to 936.6 of 4683
+2025-03-08 12:42:01,808 INFO: Scrolled to 1404.8999999999999 of 4683
+2025-03-08 12:42:02,479 INFO: Scrolled to 1873.2 of 4683
+2025-03-08 12:42:03,243 INFO: Scrolled to 2341.5 of 4683
+2025-03-08 12:42:03,928 INFO: Scrolled to 2809.7999999999997 of 4683
+2025-03-08 12:42:04,449 INFO: Scrolled to 3278.1 of 4683
+2025-03-08 12:42:05,189 INFO: Scrolled to 3746.4 of 4683
+2025-03-08 12:42:05,710 INFO: Scrolled to 4214.7 of 4683
+2025-03-08 12:42:06,233 INFO: Scrolled to 4683.0 of 4683
+2025-03-08 12:42:07,964 INFO: Scrolling attempt 1. Found 25 profiles.
+2025-03-08 12:42:11,878 WARNING: Timeout waiting for new profiles to load.
+Traceback (most recent call last):
+  File "C:\Github Scrapper ideas\scrapper using python from ArthurVerrez's git V6 trying GUI\linkedin-scraping-tools\linkedin_scraper_gui.py", line 242, in get_all_info_from_search_url
+    WebDriverWait(driver, wait_after_scroll_down).until(profiles_loaded)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-03-08 12:42:12,422 INFO: Scrolling attempt 2. Found 25 profiles.
+2025-03-08 12:42:12,422 INFO: No new profiles loaded; stopping scroll.
+2025-03-08 12:42:12,546 INFO: Getting all result elements...
+2025-03-08 12:42:12,958 INFO: Found 25 elements.
+2025-03-08 12:42:12,959 INFO: Getting the info for all elements...
+2025-03-08 12:42:19,570 INFO: Navigated to URL: https://www.linkedin.com/sales/search/people?query=(recentSearchParam%3A(id%3A3554033849%2CdoLogHistory%3Atrue)%2Cfilters%3AList((type%3AFUNCTION%2Cvalues%3AList((id%3A13%2Ctext%3AInformation%2520Technology%2CselectionType%3AINCLUDED)%2C(id%3A12%2Ctext%3AHuman%2520Resources%2CselectionType%3AINCLUDED)))%2C(type%3ASENIORITY_LEVEL%2Cvalues%3AList((id%3A130%2Ctext%3AStrategic%2CselectionType%3AINCLUDED)))%2C(type%3AREGION%2Cvalues%3AList((id%3A102221843%2Ctext%3ANorth%2520America%2CselectionType%3AINCLUDED)))))&sessionId=MUtfiDPRQ1SPlrRZ7KGrsg%3D%3D&page=3
+2025-03-08 12:42:19,572 INFO: Waiting for the search results container to become visible...
+2025-03-08 12:42:24,462 INFO: Search results container is visible.
+2025-03-08 12:42:24,462 INFO: Gradually scrolling down the container to load all profiles...
+2025-03-08 12:42:24,670 INFO: Scrolled to 462.70000000000005 of 4627
+2025-03-08 12:42:25,187 INFO: Scrolled to 925.4000000000001 of 4627
+2025-03-08 12:42:25,807 INFO: Scrolled to 1388.1 of 4627
+2025-03-08 12:42:26,658 INFO: Scrolled to 1850.8000000000002 of 4627
+2025-03-08 12:42:27,616 INFO: Scrolled to 2313.5 of 4627
+2025-03-08 12:42:28,260 INFO: Scrolled to 2776.2 of 4627
+2025-03-08 12:42:28,862 INFO: Scrolled to 3238.8999999999996 of 4627
+2025-03-08 12:42:29,400 INFO: Scrolled to 3701.6000000000004 of 4627
+2025-03-08 12:42:30,076 INFO: Scrolled to 4164.3 of 4627
+2025-03-08 12:42:30,597 INFO: Scrolled to 4627.0 of 4627
+2025-03-08 12:42:32,338 INFO: Scrolling attempt 1. Found 25 profiles.
+2025-03-08 12:42:36,333 WARNING: Timeout waiting for new profiles to load.
+Traceback (most recent call last):
+  File "C:\Github Scrapper ideas\scrapper using python from ArthurVerrez's git V6 trying GUI\linkedin-scraping-tools\linkedin_scraper_gui.py", line 242, in get_all_info_from_search_url
+    WebDriverWait(driver, wait_after_scroll_down).until(profiles_loaded)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 146, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2025-03-08 12:42:36,932 INFO: Scrolling attempt 2. Found 25 profiles.
+2025-03-08 12:42:36,932 INFO: No new profiles loaded; stopping scroll.
+2025-03-08 12:42:37,069 INFO: Getting all result elements...
+2025-03-08 12:42:37,491 INFO: Found 25 elements.
+2025-03-08 12:42:37,491 INFO: Getting the info for all elements...
